@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body{
+    background-color: hsl(0, 0%, 8%);
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    text-wrap: wrap;
+}
+
+.social-card{
+    background-color: #1F1F1F;
+    height: 580px;
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    margin: 80px auto;
+    border-radius: 10px;
+    padding-inline: 10px;
+}
+
+img{
+    width: 100px;
+    border-radius: 50%;
+    margin-block: 20px;
+}
+
+.content{
+    margin-block: 10px;
+}
+
+.btn-links{
+    display: flex;
+    flex-direction: column; 
+    
+}
+
+.social-links{
+    height: 40px;
+    width: 80%;
+    margin: 10px auto;
+    background-color: hsl(0, 0%, 20%);
+    border: none;
+    border-radius: 8px;
+}
+
+.social-links a{
+    text-decoration: none;
+    color: white;
+}
+
+h1{
+    color: white;
+    font-size: 1.25rem;
+    padding-bottom: 10px;
+}
+
+h2{
+    color: hsl(75, 94%, 57%);
+    font-size: 0.82rem;
+    padding-bottom: 20px;
+}
+
+h3{
+    font-size: 0.85rem;
+    color: white;
+}
+
+
+@media only screen and (max-width: 385px) {
+    .social-card {
+        width: 300px; 
+    }
+    
+    img {
+        width: 60px; 
+    }
+    
+    .social-links{
+        height: 40px;
+        width: 85%;
+        margin: 12px auto;
+      
+    }
+    
+}
